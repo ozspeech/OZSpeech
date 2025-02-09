@@ -1,0 +1,11 @@
+estimator:
+  input_dim: 1024
+  n_layers: 4
+  n_heads: 32
+  hidden_dim: 768
+  ffn_dim: 3072
+  time_n_layers: 1
+  time_scale: 4
+  max_seq_len: 5000
+  vocab_size: 1024
+  n_quantizers: 6

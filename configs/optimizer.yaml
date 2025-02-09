@@ -1,0 +1,9 @@
+device: 'cpu'
+betas: [0.9, 0.98]
+eps: 0.000000001
+weight_decay: 1e-4
+lr: 1e-4
+factor: 1
+warmup_steps: 5000
+max_steps: 500000
+epochs: 25

@@ -1,0 +1,21 @@
+variance_predictor:
+  filter_size: 1024
+  kernel_size: 3
+  drop_out: 0.5
+transformer:
+  encoder_layer: 2
+  encoder_head: 4
+  encoder_hidden: 256
+  encoder_conv_filter_size: 1024
+  decoder_layer: 2
+  decoder_head: 4
+  decoder_hidden: 256
+  decoder_conv_filter_size: 1024
+  conv_kernel_size: [9, 1]
+  encoder_dropout: 0.1
+  decoder_dropout: 0.1
+  output_dim: 1024
+max_seq_len: 5000
+codec:
+    vocab_size: 1024
+    n_quantizers: 6

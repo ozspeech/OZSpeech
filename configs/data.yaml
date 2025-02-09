@@ -1,0 +1,19 @@
+name: LJ
+data_root: /cm/archive/nghiahnh/data/zact-metadata
+train_manifest: libritts_train_manifest.txt
+valid_manifest: LT_dev_manifest.txt
+sampling_rate: 16000
+dur_min: 1
+dur_max: 16.6
+n_words_min: 3
+prompt_dur_max: 3 #seconds
+prompt_reduced_factor: 0.8
+down_factors: [2, 4, 5, 5]
+batch_size: 32
+num_workers: 1
+vocab_size: 1024
+pin_memory: false
+cleaners: ['english_cleaners']
+add_blank: False
+seed: null
+sil_phones: null

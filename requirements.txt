@@ -1,0 +1,14 @@
+torch
+librosa
+inflect
+Unidecode
+scipy
+torchaudio
+omegaconf
+lightning
+g2p_en
+pytorch-lightning
+tgt
+transformers
+pyworld
+einops
