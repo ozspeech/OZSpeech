@@ -1,6 +1,6 @@
 # OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching
 
-![Overall Architecture](https://github.com/nghiahuynh-aiengr/OZSpeech/blob/main/figs/overall.png)
+![Overall Architecture](https://github.com/ozspeech/OZSpeech/blob/main/figs/overall.png)
 
 ### TL;DR
 
